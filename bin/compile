@@ -12,7 +12,6 @@ TESSERACT_OCR_LANGUAGES=jpn
 echo "Unpacking Tesseract-OCR binaries"
 mkdir -p $INSTALL_DIR
 tar -zxvf $TESSERACT_OCR_TGZ -C $INSTALL_DIR
-tar -zxvf $TESSDATA_TGZ -C $INSTALL_DIR/share/tessdata
 
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
