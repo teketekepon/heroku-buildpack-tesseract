@@ -9,7 +9,7 @@ The first step consists in allowing your Heroku app to use multiple buildpacks. 
 1. setup your app as  
     ```
     heroku buildpacks:set heroku/LANG
-    heroku buildpacks:add https://github.com/pathwaysmedical/heroku-buildpack-tesseract
+    heroku buildpacks:add https://github.com/teketekepon/heroku-buildpack-tesseract
     ```
 
     where `LANG` is the language used by your app (e.g., `ruby`, `python`, or `nodejs`). A complete list of Heroku buildpacks can be found [here](https://devcenter.heroku.com/articles/buildpacks).
@@ -25,5 +25,5 @@ MIT License.
 Original work Copyright (c) 2013 Marco Azimonti  
 Modified work Copyright (c) 2015 Matteo Maggioni  
 Modified work Copyright (c) 2015 Oswell Chan  
-Modified work Copyright (c) 2018 Malcolm Patterson
+Modified work Copyright (c) 2018 Malcolm Patterson  
 Modified work Copyright (c) 2020 Takahiro Furukawa
