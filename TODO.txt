@@ -1,2 +1,0 @@
-ライブラリの追加: https://github.com/libarchive/libarchive/releases/download/v3.4.3/libarchive-3.4.3.tar.xz
-共有ライブラリの依存関係を調査: ldd tesseract コマンド
