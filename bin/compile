@@ -13,6 +13,7 @@ echo "Unpacking Tesseract-OCR binaries"
 mkdir -p $INSTALL_DIR
 tar -zxvf $TESSERACT_OCR_TGZ -C $INSTALL_DIR
 ln -s ./lib/libtesseract.so.5 libtesseract.so.4
+mv libtesseract.so.4 ./lib/
 
 
 echo "Building runtime environment for Tesseract-OCR"
